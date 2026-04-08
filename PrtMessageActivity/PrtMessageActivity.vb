@@ -5,7 +5,7 @@ Imports UiPath.Shared.Activities
 
 Namespace PrtMessageActivity.Activities
 
-    <Category("Custom")>
+    <Category("Primitives")>
     <DisplayName("Prt Message Activity")>
     <Description("Returns a greeting message from the provided name.")>
     Public Class PrtMessageActivity

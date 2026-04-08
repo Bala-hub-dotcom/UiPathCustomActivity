@@ -6,7 +6,7 @@ Imports UiPath.Shared.Activities
 
 Namespace PrtMessageActivity.Activities
 
-    <Category("Custom")>
+    <Category("Primitives")>
     <DisplayName("Prt Message Box")>
     <Description("Shows a message box with a greeting based on the provided name.")>
     Public Class PrtMessageBoxActivity
