@@ -5,12 +5,12 @@
     <version>1.0.0</version>
     <authors>Custom Activity</authors>
     <description>UiPath Custom Activity - Print Message Activity. Takes a name input and returns a greeting message.</description>
-    <repository type="git" commit="9778561ddee7d967eb0ff3bcf05c7ea6b8e1e9eb" />
+    <repository type="git" commit="5cfb09759ce525b86b90606a5ea575cb813cdd11" />
     <dependencies>
-      <group targetFramework="net10.0" />
+      <group targetFramework="net6.0" />
     </dependencies>
   </metadata>
   <files>
-    <file src="/workspaces/UiPathCustomActivity/PrtMessageActivity/bin/Release/net10.0/PrtMessageActivity.dll" target="lib/net10.0/PrtMessageActivity.dll" />
+    <file src="/workspaces/UiPathCustomActivity/PrtMessageActivity/bin/Release/net6.0/PrtMessageActivity.dll" target="lib/net6.0/PrtMessageActivity.dll" />
   </files>
 </package>
