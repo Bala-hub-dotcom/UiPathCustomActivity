@@ -2,7 +2,7 @@
 Imports System.Activities
 Imports System.ComponentModel
 
-<DisplayName("Print Message")>
+<DisplayName("PrtMessageActivity")>
 <Description("Returns a greeting message from the provided name.")>
 Public Class PrtMessageActivity
     Inherits CodeActivity
