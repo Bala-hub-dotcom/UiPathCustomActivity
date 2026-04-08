@@ -1,3 +1,0 @@
-/workspaces/UiPathCustomActivity/PrtMessageActivity/bin/Release/net10.0/publish/PrtMessageActivity.dll
-/workspaces/UiPathCustomActivity/PrtMessageActivity/bin/Release/net10.0/publish/PrtMessageActivity.deps.json
-/workspaces/UiPathCustomActivity/PrtMessageActivity/bin/Release/net10.0/publish/PrtMessageActivity.pdb

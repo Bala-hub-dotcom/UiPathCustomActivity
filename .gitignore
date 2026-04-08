@@ -1,0 +1,10 @@
+# Ignore build output directories but keep the package folder contents
+PrtMessageActivity/bin/Debug/
+PrtMessageActivity/bin/Release/net10.0/
+PrtMessageActivity/bin/Release/net461/
+PrtMessageActivity/bin/Release/net6.0/
+PrtMessageActivity/obj/
+
+# Keep package artifacts in the package folder
+!PrtMessageActivity/bin/package/
+!PrtMessageActivity/bin/package/*.nupkg

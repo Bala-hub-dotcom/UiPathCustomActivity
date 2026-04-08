@@ -1,9 +1,0 @@
-/workspaces/UiPathCustomActivity/PrtMessageActivity/obj/Release/net461/PrtMessageActivity.GeneratedMSBuildEditorConfig.editorconfig
-/workspaces/UiPathCustomActivity/PrtMessageActivity/obj/Release/net461/PrtMessageActivity.AssemblyInfoInputs.cache
-/workspaces/UiPathCustomActivity/PrtMessageActivity/obj/Release/net461/PrtMessageActivity.AssemblyInfo.cs
-/workspaces/UiPathCustomActivity/PrtMessageActivity/obj/Release/net461/PrtMessageActivity.csproj.CoreCompileInputs.cache
-/workspaces/UiPathCustomActivity/PrtMessageActivity/obj/Release/net461/PrtMessageActivity.sourcelink.json
-/workspaces/UiPathCustomActivity/PrtMessageActivity/bin/Release/net461/PrtMessageActivity.dll
-/workspaces/UiPathCustomActivity/PrtMessageActivity/bin/Release/net461/PrtMessageActivity.pdb
-/workspaces/UiPathCustomActivity/PrtMessageActivity/obj/Release/net461/PrtMessageActivity.dll
-/workspaces/UiPathCustomActivity/PrtMessageActivity/obj/Release/net461/PrtMessageActivity.pdb
