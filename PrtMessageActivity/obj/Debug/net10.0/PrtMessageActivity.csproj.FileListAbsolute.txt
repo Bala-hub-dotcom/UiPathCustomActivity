@@ -1,0 +1,12 @@
+/workspaces/UiPathCustomActivity/PrtMessageActivity/bin/Debug/net10.0/PrtMessageActivity.deps.json
+/workspaces/UiPathCustomActivity/PrtMessageActivity/bin/Debug/net10.0/PrtMessageActivity.dll
+/workspaces/UiPathCustomActivity/PrtMessageActivity/bin/Debug/net10.0/PrtMessageActivity.pdb
+/workspaces/UiPathCustomActivity/PrtMessageActivity/obj/Debug/net10.0/PrtMessageActivity.GeneratedMSBuildEditorConfig.editorconfig
+/workspaces/UiPathCustomActivity/PrtMessageActivity/obj/Debug/net10.0/PrtMessageActivity.AssemblyInfoInputs.cache
+/workspaces/UiPathCustomActivity/PrtMessageActivity/obj/Debug/net10.0/PrtMessageActivity.AssemblyInfo.cs
+/workspaces/UiPathCustomActivity/PrtMessageActivity/obj/Debug/net10.0/PrtMessageActivity.csproj.CoreCompileInputs.cache
+/workspaces/UiPathCustomActivity/PrtMessageActivity/obj/Debug/net10.0/PrtMessageActivity.sourcelink.json
+/workspaces/UiPathCustomActivity/PrtMessageActivity/obj/Debug/net10.0/PrtMessageActivity.dll
+/workspaces/UiPathCustomActivity/PrtMessageActivity/obj/Debug/net10.0/refint/PrtMessageActivity.dll
+/workspaces/UiPathCustomActivity/PrtMessageActivity/obj/Debug/net10.0/PrtMessageActivity.pdb
+/workspaces/UiPathCustomActivity/PrtMessageActivity/obj/Debug/net10.0/ref/PrtMessageActivity.dll
