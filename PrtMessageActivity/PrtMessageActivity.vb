@@ -1,14 +1,24 @@
 ﻿Imports System
 Imports System.Activities
+Imports System.ComponentModel
 
+<DisplayName("Print Message")>
+<Description("Returns a greeting message from the provided name.")>
 Public Class PrtMessageActivity
     Inherits CodeActivity
 
-    Public Property Name As InArgument(Of String)
-    Public Property Result As OutArgument(Of String)
+    <Category("Input")>
+    <DisplayName("Name")>
+    <Description("The name to include in the greeting message.")>
+    Public Property InputName As InArgument(Of String)
+
+    <Category("Output")>
+    <DisplayName("Result")>
+    <Description("The greeting message returned by the activity.")>
+    Public Property ResultMessage As OutArgument(Of String)
 
     Protected Overrides Sub Execute(context As CodeActivityContext)
-        Dim inputName = Name.Get(context)
-        Result.Set(context, "Hello, " & inputName)
+        Dim inputName = InputName.Get(context)
+        ResultMessage.Set(context, "Hello, " & inputName)
     End Sub
 End Class

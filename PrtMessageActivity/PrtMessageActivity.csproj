@@ -1,16 +1,23 @@
 ﻿<Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
-    <TargetFramework>net6.0</TargetFramework>
+    <TargetFrameworks>net6.0;net461</TargetFrameworks>
     <ImplicitUsings>enable</ImplicitUsings>
     <Nullable>enable</Nullable>
     <PackageId>PrtMessageActivity</PackageId>
-    <Version>1.0.0</Version>
+    <Version>1.0.2</Version>
     <Description>UiPath Custom Activity - Print Message Activity. Takes a name input and returns a greeting message.</Description>
     <Authors>Custom Activity</Authors>
     <Company>RPA</Company>
     <GeneratePackageOnBuild>false</GeneratePackageOnBuild>
     <PackageOutputPath>$(MSBuildProjectDirectory)/bin/package</PackageOutputPath>
+  </PropertyGroup>
+
+  <PropertyGroup Condition="'$(TargetFramework)' == 'net461'">
+    <NoWarn>BC42305</NoWarn>
+    <Nullable>disable</Nullable>
+    <ImplicitUsings>disable</ImplicitUsings>
+    <LangVersion>10.0</LangVersion>
   </PropertyGroup>
 
 </Project>
