@@ -5,7 +5,7 @@ A simple custom activity for UiPath Studio that takes a name input and returns a
 ## Package Information
 
 - **Package Name:** `PrtMessageActivity`
-- **Latest Version:** `1.0.3`
+- **Latest Version:** `1.0.5`
 - **Supported Runtimes:**
   - Windows-.NET6
   - Windows-.NETFramework (4.6.1+)
@@ -60,7 +60,7 @@ Currently, your `project.json` has:
 
 1. Go to **Manage Packages** in UiPath Studio
 2. In the **Available Packages** tab, search for `PrtMessageActivity`
-3. Click **Install** (version 1.0.3 or latest)
+3. Click **Install** (version 1.0.5 or latest)
 4. Wait for completion
 5. Close and reopen your project
 
@@ -72,20 +72,34 @@ The activity should now appear in the **Activities** pane when you search for `P
 
 ## Activity Details
 
-### Display Name
+### Display Names
 - `PrtMessageActivity`
+- `PrtMessageBoxActivity`
 
-### Input Properties
+### PrtMessageActivity
 - **InputName** (String) — The name to include in the greeting
-
-### Output Properties
 - **ResultMessage** (String) — The greeting message returned
+
+### PrtMessageBoxActivity
+- **InputName** (String) — The name to include in the greeting
+- **Title** (String) — The message box title
 
 ### Example
 ```
 Input: "John"
 Output: "Hello, John"
 ```
+
+### Message Box Example
+```
+Sequence
+├─ Assign: name = "World"
+├─ PrtMessageBoxActivity
+│  ├─ InputName = name
+│  └─ Title = "Welcome"
+```
+
+This activity shows a dialog with the greeting when executed.
 
 ---
 
@@ -147,7 +161,7 @@ dotnet pack -c Release
 
 Output package location:
 ```
-PrtMessageActivity/bin/package/PrtMessageActivity.1.0.3.nupkg
+PrtMessageActivity/bin/package/PrtMessageActivity.1.0.5.nupkg
 ```
 
 ---
