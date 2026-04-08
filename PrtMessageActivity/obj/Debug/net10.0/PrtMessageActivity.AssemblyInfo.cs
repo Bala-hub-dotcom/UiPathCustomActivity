@@ -10,10 +10,12 @@
 using System;
 using System.Reflection;
 
-[assembly: System.Reflection.AssemblyCompanyAttribute("PrtMessageActivity")]
+[assembly: System.Reflection.AssemblyCompanyAttribute("RPA")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
+[assembly: System.Reflection.AssemblyDescriptionAttribute(("UiPath Custom Activity - Print Message Activity. Takes a name input and returns a" +
+    " greeting message."))]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+b6d90fa328a4c318ebbb95013ae4a59ae5c1392e")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+9778561ddee7d967eb0ff3bcf05c7ea6b8e1e9eb")]
 [assembly: System.Reflection.AssemblyProductAttribute("PrtMessageActivity")]
 [assembly: System.Reflection.AssemblyTitleAttribute("PrtMessageActivity")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

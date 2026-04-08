@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2012/06/nuspec.xsd">
+  <metadata>
+    <id>PrtMessageActivity</id>
+    <version>1.0.0</version>
+    <authors>Custom Activity</authors>
+    <description>UiPath Custom Activity - Print Message Activity. Takes a name input and returns a greeting message.</description>
+    <repository type="git" commit="9778561ddee7d967eb0ff3bcf05c7ea6b8e1e9eb" />
+    <dependencies>
+      <group targetFramework="net10.0" />
+    </dependencies>
+  </metadata>
+  <files>
+    <file src="/workspaces/UiPathCustomActivity/PrtMessageActivity/bin/Release/net10.0/PrtMessageActivity.dll" target="lib/net10.0/PrtMessageActivity.dll" />
+  </files>
+</package>
