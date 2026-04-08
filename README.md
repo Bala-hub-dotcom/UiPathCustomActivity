@@ -9,6 +9,7 @@ A simple custom activity for UiPath Studio that takes a name input and returns a
 - **Supported Runtimes:**
   - Windows-.NET6
   - Windows-.NETFramework (4.6.1+)
+  - Windows-Legacy (.NET Framework 4.8)
 
 ---
 
